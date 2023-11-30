@@ -1,0 +1,33 @@
+DSC 200 – Data Wrangling
+Lab 8: Accessing Data Via API
+
+Goals:
+    - Identify API assessable data sources
+    - Write Python scripts to access data via API
+
+Instructions:
+Several organizations make their datasets public. Some of these datasets can easily be accessed
+via a publicly available Application Programming Interfaces (APIs). For this lab, you are required
+to identify at least 2 different sources from which data can be accessed via API. Ensure that
+there as at least 1 source that does not require authentication and another that does. The
+following is good reference for public APIs: https://github.com/public-apis/public-apis.
+
+Write a Python function for each selected data sources. Each function should connect to and
+extract data via the published API and create a CSV file for the dataset. You may choose to use
+the csv module or the pandas library for this purpose. Your program should provide a menu
+from which the user can select which dataset they would want to access. Remember to include
+pagination.
+
+
+Rubric:
+
+At least two data sources selected 10 points
+A function implemented for all data sources 20 points
+Menu implemented correctly 8 points
+Code appropriately commented 2 points
+Total 40 points
+
+What to submit:
+Submit a single python script containing your solution. Ensure that each function contains the
+documentation about the data source, the API being used, the login credentials, and all relevant
+information needed to test the code.
